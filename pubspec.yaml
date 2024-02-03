@@ -1,0 +1,54 @@
+name: fitness_app
+description: "A fitness app ui using flutter"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  flutter_screenutil: ^5.9.0
+  another_transformer_page_view: ^2.0.1
+  intl: ^0.17.0
+  fl_chart: ^0.66.1
+  simple_animation_progress_bar: ^1.6.0
+  dotted_dashed_line: ^0.0.3
+  simple_circular_progress_bar: ^1.0.2
+  cached_network_image: ^3.3.1
+  photo_view: ^0.14.0
+  readmore: ^2.2.0
+  youtube_player_flutter: ^8.1.2
+  calendar_agenda:
+    path: dev_lib/calendar_agenda/
+  time_picker_spinner: ^0.0.1
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.2.4
+  image_picker: ^1.0.7
+  flutter_staggered_grid_view: ^0.7.0
+  double_back_to_close: ^2.0.0
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Regular.ttf
+        - asset: assets/font/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/font/Poppins-Bold.ttf
+          weight: 700
